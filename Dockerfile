@@ -16,5 +16,3 @@ RUN /webrtc/install-build-deps-android.sh
 
 RUN git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 ENV PATH $PATH:/webrtc/depot_tools
-
-COPY patches /webrtc/patches
